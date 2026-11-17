@@ -1,4 +1,16 @@
 {
+  "spider": "",
+  "wallpaper": "",
+  "sites": [
+    {
+      "key": "Config",
+      "name": "配置中心",
+      "type": 3,
+      "api": "csp_Config",
+      "searchable": 0,
+      "changeable": 0
+    }
+  ],  
   "files": ["streams/*.m3u"],
   "rules": {
     "no-empty-lines": true,
