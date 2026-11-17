@@ -1,29 +1,13 @@
 {
   "spider": "",
   "wallpaper": "",
-  "sites": [
+  "sites": [],
+  "lives": [
     {
-      "key": "Config",
-      "name": "配置中心",
-      "type": 3,
-      "api": "csp_Config",
-      "searchable": 0,
-      "changeable": 0
+      "name": "直播",
+      "type": 0,
+      "url": "https://iptv-org.github.io/iptv/countries/cn.m3u",
+      "playerType": 2
     }
-  ],  
-  "files": ["streams/*.m3u"],
-  "rules": {
-    "no-empty-lines": true,
-    "require-header": true,
-    "attribute-quotes": true,
-    "require-info": true,
-    "require-title": true,
-    "no-trailing-spaces": false,
-    "no-whitespace-before-title": true,
-    "no-multi-spaces": true,
-    "no-extra-comma": true,
-    "space-before-paren": true,
-    "no-dash": true,
-    "require-link": true
-  }
+  ]
 }
